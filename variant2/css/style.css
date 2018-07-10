@@ -1,0 +1,39 @@
+.main {
+    display: flex;
+    /*
+    align-items: center;
+    justify-content: center;*/
+
+}
+
+.slider {
+    position: relative;
+
+
+}
+
+.slider img {
+    width: 840px;
+    height: 480px;
+
+}
+
+.slider .slide1  {
+    position: absolute;
+
+}
+
+
+.slider .slide2  {
+    position: absolute;
+    visibility: hidden;
+
+}
+
+.slider:hover .slide1{
+    visibility: hidden;
+}
+
+.slider:hover .slide2{
+    visibility: visible;
+}
